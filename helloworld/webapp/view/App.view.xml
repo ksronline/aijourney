@@ -2,6 +2,7 @@
     controllerName="com.demo.helloworld.controller.App"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc"
+    xmlns:html="http://www.w3.org/1999/xhtml"
     displayBlock="true">
 
     <Shell id="shell">
@@ -9,8 +10,9 @@
             <pages>
                 <Page id="page" title="{i18n>homePageTitle}">
                     <content>
+                        <html:div class="backgroundImage"></html:div>
                         <VBox
-                            class="sapUiSmallMargin"
+                            class="sapUiSmallMargin appContent"
                             alignItems="Center"
                             justifyContent="Center">
                             <Title
